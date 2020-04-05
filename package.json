@@ -1,0 +1,40 @@
+{
+  "name": "ramcoin",
+  "version": "1.0.0",
+  "description": "CSU RAMCOIN token and crowdsale",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.2",
+    "coveralls": "^3.0.1",
+    "dotenv": "^4.0.0",
+    "ethereumjs-util": "^5.2.0",
+    "ethjs-abi": "^0.2.1",
+    "ganache-cli": "^6.4.1",
+    "openzeppelin-solidity": "^1.10.0",
+    "solidity-coverage": "^0.5.4",
+    "solium": "^1.1.7",
+    "truffle-hdwallet-provider": "0.0.5",
+    "web3": "^1.2.6",
+    "web3-utils": "^1.0.0-beta.34"
+  },
+  "dependencies": {
+    "lite-server": "^2.4.0",
+    "solc": "^0.4.24"
+  }
+}
